@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-10-2025 a las 03:30:36
+-- Tiempo de generación: 20-10-2025 a las 17:41:12
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -85,6 +85,15 @@ CREATE TABLE `provincia` (
   `nombre_provincia` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `provincia`
+--
+
+INSERT INTO `provincia` (`id_provincia`, `nombre_provincia`) VALUES
+(1, 'Antioquia'),
+(2, 'Cundinamarca'),
+(3, 'Valle del Cauca');
+
 -- --------------------------------------------------------
 
 --
@@ -141,7 +150,7 @@ ALTER TABLE `rol`
 -- AUTO_INCREMENT de la tabla `compania`
 --
 ALTER TABLE `compania`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT de la tabla `cuenta`
@@ -153,7 +162,7 @@ ALTER TABLE `cuenta`
 -- AUTO_INCREMENT de la tabla `provincia`
 --
 ALTER TABLE `provincia`
-  MODIFY `id_provincia` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_provincia` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `rol`
