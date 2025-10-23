@@ -48,3 +48,8 @@ PHP 8.x
 MySQL / MariaDB
 Tailwind CSS 3.x
 JavaScript (interactividad y animaciones)
+
+# Paleta de colores 
+En administrador
+#0d9488
+#0f766e;
