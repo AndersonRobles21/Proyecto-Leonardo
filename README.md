@@ -56,8 +56,6 @@ Colores principales
 Color	Código HEX	Uso principal
 Azul primario	#1a73e8	Fondos, botones principales, enlaces, gradientes
 Verde acento	#009688	Botones secundarios, resaltados, focus en formularios
-Azul oscuro	#4F46E5	Fondos de panel del cliente, títulos
-Azul secundario	#3B82F6	Gradientes, hover en botones
 Estados de notificación
 Estado	Color de fondo	Color de texto	Bordes
 Éxito	#D1FAE5	#065F46	#10B981
@@ -66,22 +64,13 @@ Error	#FEE2E2	#991B1B	#EF4444
 Gradientes y fondos
 
 Fondos principales: Se utilizan degradados lineales para el body y secciones de bienvenida, por ejemplo:
-
 background: linear-gradient(to bottom right, var(--primary), var(--accent));
-
-
 Secciones de paneles y formularios: Fondos blancos con sombras suaves y bordes redondeados para destacar el contenido.
-
 Modo oscuro (cliente): Se usan gradientes y tonos oscuros para mejorar la legibilidad y la estética:
-
 from-gray-900 via-slate-900 to-gray-800
-
 Tipografía y contraste
-
 Textos oscuros (text-gray-800) sobre fondos claros.
-
 Textos claros (text-white) sobre gradientes y fondos oscuros.
-
 Se prioriza el contraste para accesibilidad y claridad en la lectura.
 
 ***En administrador***
@@ -100,7 +89,7 @@ Se prioriza el contraste para accesibilidad y claridad en la lectura.
 ***En Usuario***
 
 ```
-saf
-
+4F46E5
+3B82F6
 ```
 
