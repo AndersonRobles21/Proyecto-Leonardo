@@ -60,7 +60,8 @@ En administrador
 En cliente
 
 ```
-scf
+#4F46E5
+#3B82F6
 ```
 
 En Usuario
